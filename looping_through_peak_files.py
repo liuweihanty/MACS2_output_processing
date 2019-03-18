@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[26]:
+# In[32]:
 
 
 
@@ -10,17 +10,17 @@ directory = '/Users/weihan/Desktop/Winter_2019/computation_for_biologist/Final_p
 import subprocess
 
 
-# In[27]:
+# In[33]:
 
 
 cd /Users/weihan/Desktop/Winter_2019/computation_for_biologist/Final_project
 
 
-# In[28]:
+# In[35]:
 
 
 for file in os.listdir(directory):
     print(file)
-    subprocess.check_call(['/Library/Frameworks/R.framework/Versions/3.5/Resources/Rscript', '/Users/weihan/Desktop/Winter_2019/computation_for_biologist/Weihan_final_project.R',file], shell=False)
+    os.system(" ".join(['/Library/Frameworks/R.framework/Versions/3.5/Resources/Rscript', '/Users/weihan/Desktop/Winter_2019/computation_for_biologist/Weihan_final_project.R',file]))
     
 
