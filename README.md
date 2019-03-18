@@ -29,4 +29,6 @@ My code takes in the raw csv files output by MACS2 and perform the following cle
 
 The R script "Weihan_final_project.R" contain all the code that execute the process above. 
 In actual experiment, there are usually multiple files generated. The python code" looping_through_peak_files.py"
-loop through individual files in the designated folder and execute the R script on each file.
+loop through individual files in the designated folder and execute the R script on each file. 
+
+You simply just need to run the python code in order to finish the whole process.
