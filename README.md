@@ -1,4 +1,4 @@
-# final_project_weihan_liu
+
 The goal of my code is to process output files from MACS2, which is a software that calls differentially 
 expressed peaks from Chromatin-Immunoprecipitation Sequencing(ChIP-seq) or Assay for Transposase Accessible Chromatin with high-throughput sequencing(ATAC seq).
 
